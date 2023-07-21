@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button,
+input,
+select {
+  background-color: transparent;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}

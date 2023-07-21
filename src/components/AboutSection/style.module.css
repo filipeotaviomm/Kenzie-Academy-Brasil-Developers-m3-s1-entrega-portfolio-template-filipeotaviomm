@@ -1,0 +1,20 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutContainer h2 {
+  width: 100%;
+}
+
+.aboutContainer p {
+  display: flex;
+  text-align: justify;
+}
+
+@media (min-width: 950px) {
+  .aboutContainer {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,31 @@
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.flexBox > div,
+.flexBox > img {
+  width: 100%;
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contentLeft button {
+  max-width: 140px;
+}
+
+.imgRight {
+  width: 100%;
+}
+
+@media (min-width: 950px) {
+  .flexBox {
+    flex-direction: row;
+  }
+}

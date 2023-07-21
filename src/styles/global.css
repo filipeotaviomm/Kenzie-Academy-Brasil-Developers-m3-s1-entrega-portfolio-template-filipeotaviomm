@@ -1,0 +1,11 @@
+:root {
+  --font-primary: "Inter", sans-serif;
+  --color-black: #000000;
+  --color-purple: #6880ff;
+  --color-purple-hover: #7c91ff;
+  --color-white: #ffffff;
+}
+
+body {
+  background-color: var(--color-black);
+}

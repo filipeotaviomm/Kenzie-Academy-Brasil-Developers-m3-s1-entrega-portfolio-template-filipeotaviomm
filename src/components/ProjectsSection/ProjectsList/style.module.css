@@ -1,0 +1,11 @@
+.technologiesContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 950px) {
+  .technologiesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
