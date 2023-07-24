@@ -39,10 +39,10 @@
 @media (min-width: 950px) {
   .footerContainer {
     flex-direction: row;
+    justify-content: space-between;
   }
   .gapping {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
 }
